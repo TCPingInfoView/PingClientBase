@@ -3,7 +3,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace TCPingInfoView.PingClientBase
+namespace PingClientBase
 {
 	public interface IPingClient : IAsyncDisposable
 	{

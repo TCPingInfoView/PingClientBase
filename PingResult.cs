@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.NetworkInformation;
 
-namespace TCPingInfoView.PingClientBase
+namespace PingClientBase
 {
 	public class PingResult
 	{
