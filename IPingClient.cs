@@ -11,6 +11,6 @@ namespace PingClientBase
 		TimeSpan Timeout { get; set; }
 		string Arguments { get; set; }
 		IPEndPoint EndPoint { get; set; }
-		ValueTask<PingResult> Ping(CancellationToken token);
+		ValueTask<PingResult> PingAsync(CancellationToken token);
 	}
 }
