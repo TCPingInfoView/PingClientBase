@@ -1,5 +1,5 @@
+using PingClientBase.Enums;
 using System;
-using System.Net.NetworkInformation;
 
 namespace PingClientBase
 {
@@ -13,7 +13,7 @@ namespace PingClientBase
 		/// <summary>
 		/// 状态
 		/// </summary>
-		public IPStatus Status { get; set; }
+		public PingStatus Status { get; set; }
 
 		/// <summary>
 		/// 返回的信息

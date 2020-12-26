@@ -27,7 +27,7 @@ namespace PingClientBase
 		/// </summary>
 		IPEndPoint EndPoint { get; set; }
 
-		Task<PingResult> PingAsync(CancellationToken token);
+		ValueTask<PingResult> PingAsync(CancellationToken token);
 		PingResult Ping();
 	}
 }
