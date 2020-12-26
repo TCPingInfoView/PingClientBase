@@ -13,6 +13,14 @@
     <PackageProjectUrl>https://github.com/TCPingInfoView</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TCPingInfoView/PingClientBase</RepositoryUrl>
     <PackageTags>ping</PackageTags>
+    <PackageIcon>TCPing.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="TCPing.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
