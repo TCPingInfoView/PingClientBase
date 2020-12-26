@@ -20,12 +20,12 @@ namespace PingClientBase
 		/// <summary>
 		/// 参数
 		/// </summary>
-		string Arguments { get; set; }
+		string? Arguments { get; set; }
 
 		/// <summary>
 		/// 节点
 		/// </summary>
-		IPEndPoint EndPoint { get; set; }
+		IPEndPoint? EndPoint { get; set; }
 
 		ValueTask<PingResult> PingAsync(CancellationToken token);
 		PingResult Ping();
