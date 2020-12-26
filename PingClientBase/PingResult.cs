@@ -6,7 +6,7 @@ namespace PingClientBase
 	public record PingResult
 	{
 		/// <summary>
-		/// 延迟，单位秒
+		/// 延迟，单位毫秒
 		/// </summary>
 		public double Latency { get; set; }
 
@@ -22,7 +22,7 @@ namespace PingClientBase
 
 		public override string ToString()
 		{
-			return $@"{Status}: {Latency} s{(string.IsNullOrEmpty(Info) ? string.Empty : Environment.NewLine)}{Info}";
+			return $@"{Status}: {Latency} ms{(string.IsNullOrEmpty(Info) ? string.Empty : Environment.NewLine)}{Info}";
 		}
 	}
 }
