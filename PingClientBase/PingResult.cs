@@ -20,6 +20,13 @@ namespace PingClientBase
 		/// </summary>
 		public string? Info { get; set; }
 
+		public PingResult(double latency = -1.0, PingStatus status = default, string? info = default)
+		{
+			Latency = latency;
+			Status = status;
+			Info = info;
+		}
+
 		public override string ToString()
 		{
 			return $@"{Status}: {Latency} ms{(string.IsNullOrEmpty(Info) ? string.Empty : Environment.NewLine)}{Info}";

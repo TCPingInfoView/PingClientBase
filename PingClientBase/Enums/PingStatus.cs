@@ -30,6 +30,11 @@ namespace PingClientBase.Enums
 		/// <summary>
 		/// 端口错误
 		/// </summary>
-		PortError
+		PortError,
+
+		/// <summary>
+		/// 测试失败
+		/// </summary>
+		Failed
 	}
 }
