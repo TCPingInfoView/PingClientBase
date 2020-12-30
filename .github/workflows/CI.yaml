@@ -6,7 +6,6 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      NuGetAPIKey: ${{ secrets.NuGetAPIKey }}
       ProjectName: PingClientBase
 
     steps:
